@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "main": "server/app.js",
   "scripts": {
-    "dev_backend": "cross-env NODE_ENV=development node server/app.js",
+    "dev_backend": "cross-env NODE_ENV=development nodemon server/app.js",
     "front_dev": "npm run dev --prefix client",
     "dev": "concurrently \"npm run dev_backend\" \"npm run front_dev\""
   },
